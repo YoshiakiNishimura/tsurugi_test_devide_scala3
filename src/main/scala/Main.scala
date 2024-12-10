@@ -30,7 +30,7 @@ import java.net.URI
 private val Connect = "ipc://tsurugi"
 private val TableName = "test_table"
 private val TableName2 = "test_table2"
-private val Columncount = 1_0
+private val Columncount = 10_000_000
 class Setting(val tg: TgTmSetting, val name: String) {
   def getName: String = name
   def getTgTmSetting: TgTmSetting = tg
